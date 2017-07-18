@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DDC5E4341E4961440073EBA7 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC5E4331E4961440073EBA7 /* MBProgressHUD.m */; };
-		DDC5E4351E4961440073EBA7 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC5E4331E4961440073EBA7 /* MBProgressHUD.m */; };
+		DD49AE7E1F1D986F00922F50 /* RMPublicMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = DD49AE7D1F1D986F00922F50 /* RMPublicMethod.m */; };
 		DDE19B7F1E48758700FD17ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE19B7E1E48758700FD17ED /* main.m */; };
 		DDE19B821E48758700FD17ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE19B811E48758700FD17ED /* AppDelegate.m */; };
 		DDE19B851E48758700FD17ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE19B841E48758700FD17ED /* ViewController.m */; };
@@ -17,7 +16,6 @@
 		DDE19B8D1E48758700FD17ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE19B8B1E48758700FD17ED /* LaunchScreen.storyboard */; };
 		DDE19B981E48758700FD17ED /* CustomTimeSelectedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE19B971E48758700FD17ED /* CustomTimeSelectedTests.m */; };
 		DDE19BA31E48758700FD17ED /* CustomTimeSelectedUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE19BA21E48758700FD17ED /* CustomTimeSelectedUITests.m */; };
-		DDE19BB21E4875AA00FD17ED /* GZPublicMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE19BB11E4875AA00FD17ED /* GZPublicMethod.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,10 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DDC5E4311E4961030073EBA7 /* GZPublicConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZPublicConst.h; sourceTree = "<group>"; };
-		DDC5E4321E4961440073EBA7 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		DDC5E4331E4961440073EBA7 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		DDC5E4361E4961750073EBA7 /* GZPublicEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZPublicEnum.h; sourceTree = "<group>"; };
+		DD49AE7C1F1D986F00922F50 /* RMPublicMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMPublicMethod.h; sourceTree = "<group>"; };
+		DD49AE7D1F1D986F00922F50 /* RMPublicMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMPublicMethod.m; sourceTree = "<group>"; };
 		DDE19B7A1E48758700FD17ED /* CustomTimeSelected.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTimeSelected.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE19B7E1E48758700FD17ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DDE19B801E48758700FD17ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,8 +54,6 @@
 		DDE19B9E1E48758700FD17ED /* CustomTimeSelectedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTimeSelectedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE19BA21E48758700FD17ED /* CustomTimeSelectedUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTimeSelectedUITests.m; sourceTree = "<group>"; };
 		DDE19BA41E48758700FD17ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDE19BB01E4875AA00FD17ED /* GZPublicMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZPublicMethod.h; sourceTree = "<group>"; };
-		DDE19BB11E4875AA00FD17ED /* GZPublicMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZPublicMethod.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +108,8 @@
 				DDE19B811E48758700FD17ED /* AppDelegate.m */,
 				DDE19B831E48758700FD17ED /* ViewController.h */,
 				DDE19B841E48758700FD17ED /* ViewController.m */,
-				DDC5E4361E4961750073EBA7 /* GZPublicEnum.h */,
-				DDC5E4311E4961030073EBA7 /* GZPublicConst.h */,
-				DDE19BB01E4875AA00FD17ED /* GZPublicMethod.h */,
-				DDE19BB11E4875AA00FD17ED /* GZPublicMethod.m */,
-				DDC5E4321E4961440073EBA7 /* MBProgressHUD.h */,
-				DDC5E4331E4961440073EBA7 /* MBProgressHUD.m */,
+				DD49AE7C1F1D986F00922F50 /* RMPublicMethod.h */,
+				DD49AE7D1F1D986F00922F50 /* RMPublicMethod.m */,
 				DDE19B861E48758700FD17ED /* Main.storyboard */,
 				DDE19B891E48758700FD17ED /* Assets.xcassets */,
 				DDE19B8B1E48758700FD17ED /* LaunchScreen.storyboard */,
@@ -291,10 +281,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDE19BB21E4875AA00FD17ED /* GZPublicMethod.m in Sources */,
 				DDE19B851E48758700FD17ED /* ViewController.m in Sources */,
-				DDC5E4341E4961440073EBA7 /* MBProgressHUD.m in Sources */,
 				DDE19B821E48758700FD17ED /* AppDelegate.m in Sources */,
+				DD49AE7E1F1D986F00922F50 /* RMPublicMethod.m in Sources */,
 				DDE19B7F1E48758700FD17ED /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,7 +293,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDE19B981E48758700FD17ED /* CustomTimeSelectedTests.m in Sources */,
-				DDC5E4351E4961440073EBA7 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
