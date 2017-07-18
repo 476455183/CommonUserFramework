@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0810"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DD5836771E2369D50020E349"
+               BuildableName = "DropDownList(&#x4e0b;&#x62c9;&#x6846;&#x9009;&#x62e9;).app"
+               BlueprintName = "DropDownList(&#x4e0b;&#x62c9;&#x6846;&#x9009;&#x62e9;)"
+               ReferencedContainer = "container:DropDownList(&#x4e0b;&#x62c9;&#x6846;&#x9009;&#x62e9;).xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DD5836901E2369D50020E349"
+               BuildableName = "DropDownList(&#x4e0b;&#x62c9;&#x6846;&#x9009;&#x62e9;)Tests.xctest"
+               BlueprintName = "DropDownList(&#x4e0b;&#x62c9;&#x6846;&#x9009;&#x62e9;)Tests"
+               ReferencedContainer = "container:DropDownList(&#x4e0b;&#x62c9;&#x6846;&#x9009;&#x62e9;).xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DD58369B1E2369D50020E349"
+               BuildableName = "DropDownList(&#x4e0b;&#x62c9;&#x6846;&#x9009;&#x62e9;)UITests.xctest"
+               BlueprintName = "DropDownList(&#x4e0b;&#x62c9;&#x6846;&#x9009;&#x62e9;)UITests"
+               ReferencedContainer = "container:DropDownList(&#x4e0b;&#x62c9;&#x6846;&#x9009;&#x62e9;).xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DD5836771E2369D50020E349"
+            BuildableName = "DropDownList(&#x4e0b;&#x62c9;&#x6846;&#x9009;&#x62e9;).app"
+            BlueprintName = "DropDownList(&#x4e0b;&#x62c9;&#x6846;&#x9009;&#x62e9;)"
+            ReferencedContainer = "container:DropDownList(&#x4e0b;&#x62c9;&#x6846;&#x9009;&#x62e9;).xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DD5836771E2369D50020E349"
+            BuildableName = "DropDownList(&#x4e0b;&#x62c9;&#x6846;&#x9009;&#x62e9;).app"
+            BlueprintName = "DropDownList(&#x4e0b;&#x62c9;&#x6846;&#x9009;&#x62e9;)"
+            ReferencedContainer = "container:DropDownList(&#x4e0b;&#x62c9;&#x6846;&#x9009;&#x62e9;).xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DD5836771E2369D50020E349"
+            BuildableName = "DropDownList(&#x4e0b;&#x62c9;&#x6846;&#x9009;&#x62e9;).app"
+            BlueprintName = "DropDownList(&#x4e0b;&#x62c9;&#x6846;&#x9009;&#x62e9;)"
+            ReferencedContainer = "container:DropDownList(&#x4e0b;&#x62c9;&#x6846;&#x9009;&#x62e9;).xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

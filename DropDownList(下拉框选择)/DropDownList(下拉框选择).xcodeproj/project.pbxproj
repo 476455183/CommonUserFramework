@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD58367D1E2369D50020E349 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD58367C1E2369D50020E349 /* main.m */; };
+		DD5836801E2369D50020E349 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD58367F1E2369D50020E349 /* AppDelegate.m */; };
+		DD5836831E2369D50020E349 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5836821E2369D50020E349 /* ViewController.m */; };
+		DD5836861E2369D50020E349 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5836841E2369D50020E349 /* Main.storyboard */; };
+		DD5836881E2369D50020E349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5836871E2369D50020E349 /* Assets.xcassets */; };
+		DD58368B1E2369D50020E349 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5836891E2369D50020E349 /* LaunchScreen.storyboard */; };
+		DD5836961E2369D50020E349 /* DropDownList_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5836951E2369D50020E349 /* DropDownList_______Tests.m */; };
+		DD5836A11E2369D50020E349 /* DropDownList_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5836A01E2369D50020E349 /* DropDownList_______UITests.m */; };
+		DD5836B01E236AC80020E349 /* DropDownList.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5836AF1E236AC80020E349 /* DropDownList.m */; };
+		DD5836B21E237B8B0020E349 /* selected_popup.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5836B11E237B8B0020E349 /* selected_popup.png */; };
+		DD5836B31E237B8B0020E349 /* selected_popup.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5836B11E237B8B0020E349 /* selected_popup.png */; };
+		DD5836B41E237B8B0020E349 /* selected_popup.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5836B11E237B8B0020E349 /* selected_popup.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD5836921E2369D50020E349 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD5836701E2369D50020E349 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD5836771E2369D50020E349;
+			remoteInfo = "DropDownList(下拉框选择)";
+		};
+		DD58369D1E2369D50020E349 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD5836701E2369D50020E349 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD5836771E2369D50020E349;
+			remoteInfo = "DropDownList(下拉框选择)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD5836781E2369D50020E349 /* DropDownList(下拉框选择).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DropDownList(下拉框选择).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD58367C1E2369D50020E349 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD58367E1E2369D50020E349 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD58367F1E2369D50020E349 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD5836811E2369D50020E349 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD5836821E2369D50020E349 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD5836851E2369D50020E349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD5836871E2369D50020E349 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD58368A1E2369D50020E349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD58368C1E2369D50020E349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD5836911E2369D50020E349 /* DropDownList(下拉框选择)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DropDownList(下拉框选择)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5836951E2369D50020E349 /* DropDownList_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DropDownList_______Tests.m"; sourceTree = "<group>"; };
+		DD5836971E2369D50020E349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD58369C1E2369D50020E349 /* DropDownList(下拉框选择)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DropDownList(下拉框选择)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5836A01E2369D50020E349 /* DropDownList_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DropDownList_______UITests.m"; sourceTree = "<group>"; };
+		DD5836A21E2369D50020E349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD5836AE1E236AC80020E349 /* DropDownList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDownList.h; sourceTree = "<group>"; };
+		DD5836AF1E236AC80020E349 /* DropDownList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropDownList.m; sourceTree = "<group>"; };
+		DD5836B11E237B8B0020E349 /* selected_popup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selected_popup.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD5836751E2369D50020E349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD58368E1E2369D50020E349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5836991E2369D50020E349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD58366F1E2369D50020E349 = {
+			isa = PBXGroup;
+			children = (
+				DD58367A1E2369D50020E349 /* DropDownList(下拉框选择) */,
+				DD5836941E2369D50020E349 /* DropDownList(下拉框选择)Tests */,
+				DD58369F1E2369D50020E349 /* DropDownList(下拉框选择)UITests */,
+				DD5836791E2369D50020E349 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD5836791E2369D50020E349 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD5836781E2369D50020E349 /* DropDownList(下拉框选择).app */,
+				DD5836911E2369D50020E349 /* DropDownList(下拉框选择)Tests.xctest */,
+				DD58369C1E2369D50020E349 /* DropDownList(下拉框选择)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD58367A1E2369D50020E349 /* DropDownList(下拉框选择) */ = {
+			isa = PBXGroup;
+			children = (
+				DD5836B11E237B8B0020E349 /* selected_popup.png */,
+				DD58367E1E2369D50020E349 /* AppDelegate.h */,
+				DD58367F1E2369D50020E349 /* AppDelegate.m */,
+				DD5836811E2369D50020E349 /* ViewController.h */,
+				DD5836821E2369D50020E349 /* ViewController.m */,
+				DD5836AE1E236AC80020E349 /* DropDownList.h */,
+				DD5836AF1E236AC80020E349 /* DropDownList.m */,
+				DD5836841E2369D50020E349 /* Main.storyboard */,
+				DD5836871E2369D50020E349 /* Assets.xcassets */,
+				DD5836891E2369D50020E349 /* LaunchScreen.storyboard */,
+				DD58368C1E2369D50020E349 /* Info.plist */,
+				DD58367B1E2369D50020E349 /* Supporting Files */,
+			);
+			path = "DropDownList(下拉框选择)";
+			sourceTree = "<group>";
+		};
+		DD58367B1E2369D50020E349 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD58367C1E2369D50020E349 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD5836941E2369D50020E349 /* DropDownList(下拉框选择)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DD5836951E2369D50020E349 /* DropDownList_______Tests.m */,
+				DD5836971E2369D50020E349 /* Info.plist */,
+			);
+			path = "DropDownList(下拉框选择)Tests";
+			sourceTree = "<group>";
+		};
+		DD58369F1E2369D50020E349 /* DropDownList(下拉框选择)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD5836A01E2369D50020E349 /* DropDownList_______UITests.m */,
+				DD5836A21E2369D50020E349 /* Info.plist */,
+			);
+			path = "DropDownList(下拉框选择)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD5836771E2369D50020E349 /* DropDownList(下拉框选择) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD5836A51E2369D50020E349 /* Build configuration list for PBXNativeTarget "DropDownList(下拉框选择)" */;
+			buildPhases = (
+				DD5836741E2369D50020E349 /* Sources */,
+				DD5836751E2369D50020E349 /* Frameworks */,
+				DD5836761E2369D50020E349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DropDownList(下拉框选择)";
+			productName = "DropDownList(下拉框选择)";
+			productReference = DD5836781E2369D50020E349 /* DropDownList(下拉框选择).app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD5836901E2369D50020E349 /* DropDownList(下拉框选择)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD5836A81E2369D50020E349 /* Build configuration list for PBXNativeTarget "DropDownList(下拉框选择)Tests" */;
+			buildPhases = (
+				DD58368D1E2369D50020E349 /* Sources */,
+				DD58368E1E2369D50020E349 /* Frameworks */,
+				DD58368F1E2369D50020E349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD5836931E2369D50020E349 /* PBXTargetDependency */,
+			);
+			name = "DropDownList(下拉框选择)Tests";
+			productName = "DropDownList(下拉框选择)Tests";
+			productReference = DD5836911E2369D50020E349 /* DropDownList(下拉框选择)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD58369B1E2369D50020E349 /* DropDownList(下拉框选择)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD5836AB1E2369D50020E349 /* Build configuration list for PBXNativeTarget "DropDownList(下拉框选择)UITests" */;
+			buildPhases = (
+				DD5836981E2369D50020E349 /* Sources */,
+				DD5836991E2369D50020E349 /* Frameworks */,
+				DD58369A1E2369D50020E349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD58369E1E2369D50020E349 /* PBXTargetDependency */,
+			);
+			name = "DropDownList(下拉框选择)UITests";
+			productName = "DropDownList(下拉框选择)UITests";
+			productReference = DD58369C1E2369D50020E349 /* DropDownList(下拉框选择)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD5836701E2369D50020E349 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Mr_zhang;
+				TargetAttributes = {
+					DD5836771E2369D50020E349 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 24UCRN99RD;
+						ProvisioningStyle = Automatic;
+					};
+					DD5836901E2369D50020E349 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 24UCRN99RD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DD5836771E2369D50020E349;
+					};
+					DD58369B1E2369D50020E349 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 24UCRN99RD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DD5836771E2369D50020E349;
+					};
+				};
+			};
+			buildConfigurationList = DD5836731E2369D50020E349 /* Build configuration list for PBXProject "DropDownList(下拉框选择)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD58366F1E2369D50020E349;
+			productRefGroup = DD5836791E2369D50020E349 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD5836771E2369D50020E349 /* DropDownList(下拉框选择) */,
+				DD5836901E2369D50020E349 /* DropDownList(下拉框选择)Tests */,
+				DD58369B1E2369D50020E349 /* DropDownList(下拉框选择)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD5836761E2369D50020E349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD58368B1E2369D50020E349 /* LaunchScreen.storyboard in Resources */,
+				DD5836B21E237B8B0020E349 /* selected_popup.png in Resources */,
+				DD5836881E2369D50020E349 /* Assets.xcassets in Resources */,
+				DD5836861E2369D50020E349 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD58368F1E2369D50020E349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5836B31E237B8B0020E349 /* selected_popup.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD58369A1E2369D50020E349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5836B41E237B8B0020E349 /* selected_popup.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD5836741E2369D50020E349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5836831E2369D50020E349 /* ViewController.m in Sources */,
+				DD5836801E2369D50020E349 /* AppDelegate.m in Sources */,
+				DD5836B01E236AC80020E349 /* DropDownList.m in Sources */,
+				DD58367D1E2369D50020E349 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD58368D1E2369D50020E349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5836961E2369D50020E349 /* DropDownList_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5836981E2369D50020E349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5836A11E2369D50020E349 /* DropDownList_______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD5836931E2369D50020E349 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD5836771E2369D50020E349 /* DropDownList(下拉框选择) */;
+			targetProxy = DD5836921E2369D50020E349 /* PBXContainerItemProxy */;
+		};
+		DD58369E1E2369D50020E349 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD5836771E2369D50020E349 /* DropDownList(下拉框选择) */;
+			targetProxy = DD58369D1E2369D50020E349 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD5836841E2369D50020E349 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD5836851E2369D50020E349 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD5836891E2369D50020E349 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD58368A1E2369D50020E349 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD5836A31E2369D50020E349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD5836A41E2369D50020E349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD5836A61E2369D50020E349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 24UCRN99RD;
+				INFOPLIST_FILE = "DropDownList(下拉框选择)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tecsun.DropDownList-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD5836A71E2369D50020E349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 24UCRN99RD;
+				INFOPLIST_FILE = "DropDownList(下拉框选择)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tecsun.DropDownList-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD5836A91E2369D50020E349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 24UCRN99RD;
+				INFOPLIST_FILE = "DropDownList(下拉框选择)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tecsun.DropDownList-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DropDownList(下拉框选择).app/DropDownList(下拉框选择)";
+			};
+			name = Debug;
+		};
+		DD5836AA1E2369D50020E349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 24UCRN99RD;
+				INFOPLIST_FILE = "DropDownList(下拉框选择)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tecsun.DropDownList-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DropDownList(下拉框选择).app/DropDownList(下拉框选择)";
+			};
+			name = Release;
+		};
+		DD5836AC1E2369D50020E349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 24UCRN99RD;
+				INFOPLIST_FILE = "DropDownList(下拉框选择)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tecsun.DropDownList-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "DropDownList(下拉框选择)";
+			};
+			name = Debug;
+		};
+		DD5836AD1E2369D50020E349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 24UCRN99RD;
+				INFOPLIST_FILE = "DropDownList(下拉框选择)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tecsun.DropDownList-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "DropDownList(下拉框选择)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD5836731E2369D50020E349 /* Build configuration list for PBXProject "DropDownList(下拉框选择)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5836A31E2369D50020E349 /* Debug */,
+				DD5836A41E2369D50020E349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD5836A51E2369D50020E349 /* Build configuration list for PBXNativeTarget "DropDownList(下拉框选择)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5836A61E2369D50020E349 /* Debug */,
+				DD5836A71E2369D50020E349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD5836A81E2369D50020E349 /* Build configuration list for PBXNativeTarget "DropDownList(下拉框选择)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5836A91E2369D50020E349 /* Debug */,
+				DD5836AA1E2369D50020E349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD5836AB1E2369D50020E349 /* Build configuration list for PBXNativeTarget "DropDownList(下拉框选择)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5836AC1E2369D50020E349 /* Debug */,
+				DD5836AD1E2369D50020E349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD5836701E2369D50020E349 /* Project object */;
+}
