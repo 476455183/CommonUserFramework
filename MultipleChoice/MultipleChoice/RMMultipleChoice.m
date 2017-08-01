@@ -23,7 +23,7 @@ NSString *key;
 @property (nonatomic, strong) UIColor *fontColor;
 /** 字体的大小 */
 @property (nonatomic, assign) CGFloat fontSize;
-/**  选中的图片字符串 */
+/** 选中的图片字符串 */
 @property (nonatomic, strong) NSString *selectedImageStr;
 /** 没有选中的图片字符串 */
 @property (nonatomic, strong) NSString *unselectedImageStr;
